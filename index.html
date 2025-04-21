@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Digital Profile</title>
+  <link rel="stylesheet" href="./style.css" />
+  <!-- Font Awesome for Icons -->
+  <script src="https://kit.fontawesome.com/db80e2649a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="particles-js"></div>
+
+  <div class="profile-card">
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>MUHAMMAD AREEB SATTI</h1>
+    <p>Ethical Hacker | Digital Marketer</p>
+    <p class="description">
+        Ethical Hacker with 3+ years of experience in cybersecurity and 5+ years as a Digital Marketer. I specialize in identifying system vulnerabilities and driving brand growth through effective digital campaigns. I hold a BS in Software Engineering from Iqra University Chak Shahzad.
+    </p>
+    <div class="social-icons">
+      <a href="tel:+923019035147"><i class="fas fa-phone"></i></a>
+      <a href="https://wa.me/923019035147"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://facebook.com/areeb.satti.az"><i class="fab fa-facebook"></i></a>
+      <a href="https://instagram.com/areebsatti.official"><i class="fab fa-instagram"></i></a>
+      <!-- <a href="https://yourwebsite.com"><i class="fas fa-globe"></i></a> -->
+      <a href="https://pk.linkedin.com/in/muhammad-areeb-satti"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+
+  <!-- Particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+    particlesJS('particles-js',
+    {
+      "particles": {
+        "number": { "value": 95 },
+        "color": { "value": "#00ffe0" },
+        "shape": { "type": "triangle" },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 5 },
+        "line_linked": {
+          "enable": true,
+          "distance": 200,
+          "color": "#00ffe0",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,
+          "random": true,
+          "bounce": false
+        }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" },
+          "onclick": { "enable": true, "mode": "push" }
+        },
+        "modes": {
+          "repulse": { "distance": 100 },
+          "push": { "particles_nb": 4 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
